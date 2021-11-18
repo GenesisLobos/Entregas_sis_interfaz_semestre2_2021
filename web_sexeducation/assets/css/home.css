@@ -1,0 +1,19 @@
+body {
+    background-color: thistle;
+}
+.logo{
+    width: 100%;
+    height: auto;
+}
+.sinopsis_titulo{
+    background-color: rgb(233, 137, 151);
+    color: pink;
+    border: 1px solid black;
+}
+
+.sinopsis_contenido{
+    background-color:black;
+    opacity: 70%;
+    border: 1px solid black;
+    color: pink;
+}

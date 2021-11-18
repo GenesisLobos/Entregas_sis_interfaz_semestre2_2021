@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(204, 204, 204);
+}
+
+.icono_volver{
+    width: 2%;
+    height:auto;
+    min-width: 40px;
+}
+.borde_columna{
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+.slider_imagenes{
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+.jean_slider{
+    width: 100%;
+}

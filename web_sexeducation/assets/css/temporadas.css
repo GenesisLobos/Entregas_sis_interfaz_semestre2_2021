@@ -1,0 +1,109 @@
+body{
+    background-color:rgb(255, 190, 129)
+}
+
+.temporada_1{ 
+    font-family:Helvetica, sans-serif;
+}
+
+
+.resumen_titulo{ 
+    background-color: rgb(238, 162, 92) ;
+    font-family:Helvetica, sans-serif;
+}
+
+.resumen_contenido{
+    background-color: rgb(238, 162, 92) ;
+    font-family:Helvetica, sans-serif;
+}
+
+.soundtrack_t1{
+    font-family:Helvetica, sans-serif;
+}
+
+.reproductor_musica{
+    font-family:Helvetica, sans-serif;
+}
+.soundtrack_titulo{
+    font-family:Helvetica, sans-serif;
+}
+.soundtrack_listado{
+    font-family:Helvetica, sans-serif;
+}
+
+/* Temporada 2 */
+
+.temporada_2{
+    background-color:plum;
+    border: 1px solid black;
+}
+
+
+.resumen_titulo2{
+    background-color:salmon;
+    border: 1px solid black; 
+}
+
+.resumen_contenido2{
+    background-color: rgb(204, 134, 126);
+    border: 1px solid black;
+}
+
+.soundtrack_t2{
+    border: 1px solid black;
+}
+
+.reproductor_musica2{
+    background-color: cornflowerblue;
+    border: 1px solid black;
+
+}
+.soundtrack_titulo2{
+    background-color:darkseagreen;
+    border: 1px solid black;
+}
+
+.soundtrack_listado2{
+    background-color:rgb(104, 151, 104);
+    border: 1px solid black;
+}
+
+/* TEMPORADA 3 */
+
+.temporada_3{
+    background-color:khaki;
+    border: 1px solid black;
+}
+
+.resumen_temporada3{
+    border: 1px solid black;
+}
+
+.resumen_titulo3{
+    background-color:salmon;
+    border: 1px solid black; 
+}
+
+.resumen_contenido3{
+    background-color: rgb(204, 134, 126);
+    border: 1px solid black;
+}
+
+.soundtrack_t3{
+    border: 1px solid black;
+}
+
+.reproductor_musica3{
+    background-color: cornflowerblue;
+    border: 1px solid black;
+
+}
+.soundtrack_titulo3{
+    background-color:darkseagreen;
+    border: 1px solid black;
+}
+
+.soundtrack_listado3{
+    background-color:rgb(104, 151, 104);
+    border: 1px solid black;
+}
