@@ -1,0 +1,39 @@
+body {
+    background-color: thistle;
+}
+
+.trama_titulo{
+    background-color: rgb(233, 137, 151);
+    border: 1px solid black;
+}
+
+.trama_texto{
+    background-color:rgb(224, 152, 144);
+    border: 1px solid black;
+}
+
+.video_trailer{
+    background-color:rgb(104, 151, 104);
+    border: 1px solid black;
+}
+
+.slider_trama{
+    width: 100%;
+    height:auto;
+    min-width: 30px;
+}
+
+.autora_imagen{
+    background-color:rgb(224, 152, 144);
+    border: 1px solid black;
+}
+
+.autora_titulo{
+    background-color:darkseagreen;
+    border: 1px solid black;
+}
+
+.autora_texto{
+    background-color:rgb(104, 151, 104);
+    border: 1px solid black;
+}
