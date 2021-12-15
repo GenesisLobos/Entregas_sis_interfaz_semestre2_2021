@@ -1,13 +1,13 @@
-body {
+.container-fluid {
     background-color: thistle;
 }
 .logo{
-    width: 100%;
+    width: 80%;
     height: auto;
 }
 .sinopsis_titulo{
     background-color: rgb(233, 137, 151);
-    color: pink;
+    color:black;
     border: 1px solid black;
 }
 
@@ -16,4 +16,403 @@ body {
     opacity: 70%;
     border: 1px solid black;
     color: pink;
+}
+
+
+
+
+/* TRAMA */
+
+body {
+    background-color: thistle;
+    margin:0 auto;
+    padding: 0 ;
+    color: darkblue;
+}
+.fondo_trama{
+    background-color: thistle;
+}
+
+.slider_trama{
+    width: 100%;
+    height:auto;
+    min-width: 30px;
+}
+
+.slider_imagenes{
+    width: 50%;
+    height: auto;
+    min-width: 50px;
+}
+
+
+
+
+
+/* TEMPORADAS */
+
+body{
+    background-color:rgb(255, 190, 129)
+}
+
+.temporada_1{
+    background-color:plum;
+    border: 1px solid black;
+}
+
+.resumen_titulo{
+    background-color:salmon;
+    border: 1px solid black; 
+}
+
+.resumen_temporada{
+    background-color: rgb(204, 134, 126);
+    border: 1px solid black;
+}
+
+.soundtrack_t1{
+    border: 1px solid black;
+    background-color:rgb(104, 151, 104);
+}
+
+.reproductor_musica{
+    background-color: cornflowerblue;
+    border: 1px solid black;
+
+}
+.soundtrack_titulo{
+    background-color:darkseagreen;
+    border: 1px solid black;
+}
+
+.soundtrack_listado{
+    background-color:rgb(104, 151, 104);
+}
+/* Temporada 2 */
+
+.temporada_2{
+    background-color:plum;
+    border: 1px solid black;
+}
+
+
+.resumen_titulo2{
+    background-color:salmon;
+    border: 1px solid black; 
+}
+
+.resumen_temporada2{
+    background-color: rgb(204, 134, 126);
+    border: 1px solid black;
+}
+
+.soundtrack_t2{
+    border: 1px solid black;
+    background-color:rgb(104, 151, 104);
+}
+
+.reproductor_musica2{
+    background-color: cornflowerblue;
+    border: 1px solid black;
+
+}
+.soundtrack_titulo2{
+    background-color:darkseagreen;
+    border: 1px solid black;
+}
+
+.soundtrack_listado2{
+    background-color:rgb(104, 151, 104);
+}
+
+/* TEMPORADA 3 */
+
+.temporada_3{
+    background-color:khaki;
+    border: 1px solid black;
+}
+
+.resumen_temporada3{
+    border: 1px solid black;
+    background-color: rgb(204, 134, 126);
+}
+
+.resumen_titulo3{
+    background-color:salmon;
+    border: 1px solid black; 
+}
+
+.soundtrack_t3{
+    border: 1px solid black;
+    background-color:rgb(104, 151, 104);
+}
+
+.reproductor_musica3{
+    background-color: cornflowerblue;
+    border: 1px solid black;
+
+}
+.soundtrack_titulo3{
+    background-color:darkseagreen;
+    border: 1px solid black;
+}
+
+.soundtrack_listado3{
+    background-color:rgb(104, 151, 104);
+}
+
+
+
+/* PERSONAJES */
+
+body{
+    background-color: rgb(204, 204, 204);
+}
+
+.ficha_1{
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+.quote_otis{
+    background-color: rgb(188, 243, 188);
+    border: 1px solid black;
+}
+
+.ficha_2{
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+.quote_personaje2{
+    background-color: rgb(188, 243, 188);
+    border: 1px solid black;
+}
+
+.ficha_3{
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+.quote_personaje3{
+    background-color: rgb(188, 243, 188);
+    border: 1px solid black;
+}
+
+.ficha_4{
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+.quote_personaje4{
+    background-color: rgb(188, 243, 188);
+    border: 1px solid black;
+}
+
+.ficha_5{
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+.quote_personaje5{
+    background-color: rgb(188, 243, 188);
+    border: 1px solid black;
+}
+
+.ficha_6{
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+.quote_personaje6{
+    background-color: rgb(188, 243, 188);
+    border: 1px solid black;
+}
+
+
+
+
+/* GALERIA */
+
+.imagen_galeria{
+    background-color: burlywood;
+    height: 50%;
+    width: auto;
+}
+
+.galeria_titulo{
+    background-color: cadetblue;
+}
+
+.imagen_videos{
+    height: 50%;
+    height: auto;
+}
+
+.imagen_freebies{
+    height: 50%;
+    height: auto;
+}
+
+
+
+/* FICHA ADAM */
+
+body{
+    background-color: rgb(204, 204, 204);
+}
+
+.icono_volver{
+    width: 2%;
+    height:auto;
+    min-width: 40px;
+}
+.borde_columna{
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+.slider_imagenes{
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+.adam_slider{
+    width: 100%;
+}
+
+
+
+
+/* FICHA AIMEE */
+
+body{
+    background-color: rgb(204, 204, 204);
+}
+
+.icono_volver{
+    width: 2%;
+    height:auto;
+    min-width: 40px;
+}
+.borde_columna{
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+.slider_imagenes{
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+.aimee_slider{
+    width: 100%;
+}
+
+
+
+/* FICHA ERIK */
+
+body{
+    background-color: rgb(204, 204, 204);
+}
+
+.icono_volver{
+    width: 2%;
+    height:auto;
+    min-width: 40px;
+}
+.borde_columna{
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+.slider_imagenes{
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+.erik_slider{
+    width: 100%;
+}
+
+
+
+
+/* FICHA JEANS */
+
+body{
+    background-color: rgb(204, 204, 204);
+}
+
+.icono_volver{
+    width: 2%;
+    height:auto;
+    min-width: 40px;
+}
+.borde_columna{
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+.slider_imagenes{
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+.jean_slider{
+    width: 100%;
+}
+
+/* FICHA MAEVE */
+
+body{
+    background-color: rgb(204, 204, 204);
+}
+
+.icono_volver{
+    width: 2%;
+    height:auto;
+    min-width: 40px;
+}
+.borde_columna{
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+.maeve_ficha{
+    width: 100%;
+}
+
+.slider_imagenes{
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+.maeve_slider{
+    width: 100%;
+}
+
+
+
+
+/* FICHA OTIS */
+
+body{
+    background-color: rgb(204, 204, 204);
+}
+
+.icono_volver{
+    width: 2%;
+    height:auto;
+    min-width: 40px;
+}
+.borde_columna{
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+.otis_ficha{
+    width: 100%;
+}
+
+.slider_imagenes{
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+.otis_slider{
+    width: 100%;
 }

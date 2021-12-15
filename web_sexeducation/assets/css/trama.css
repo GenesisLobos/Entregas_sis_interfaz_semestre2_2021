@@ -1,20 +1,11 @@
 body {
     background-color: thistle;
+    margin:0 auto;
+    padding: 0 ;
+    color: darkblue;
 }
-
-.trama_titulo{
-    background-color: rgb(233, 137, 151);
-    border: 1px solid black;
-}
-
-.trama_texto{
-    background-color:rgb(224, 152, 144);
-    border: 1px solid black;
-}
-
-.video_trailer{
-    background-color:rgb(104, 151, 104);
-    border: 1px solid black;
+.fondo_trama{
+    background-color: thistle;
 }
 
 .slider_trama{
@@ -23,17 +14,8 @@ body {
     min-width: 30px;
 }
 
-.autora_imagen{
-    background-color:rgb(224, 152, 144);
-    border: 1px solid black;
-}
-
-.autora_titulo{
-    background-color:darkseagreen;
-    border: 1px solid black;
-}
-
-.autora_texto{
-    background-color:rgb(104, 151, 104);
-    border: 1px solid black;
+.slider_imagenes{
+    width: 50%;
+    height: auto;
+    min-width: 50px;
 }

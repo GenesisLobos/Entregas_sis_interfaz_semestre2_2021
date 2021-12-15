@@ -1,0 +1,295 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url(../fonts/BebasNeue\ Regular.otf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url(../fonts/BebasNeue\ Bold.otf);
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url(../fonts/BebasNeue\ Book.otf);
+    font-style: normal;
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url(../fonts/BebasNeue\ Light.otf);
+    font-style: normal;
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url(../fonts/BebasNeue\ Thin.otf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+
+body {
+
+    background-image: url(../img/Galeria_general/pattern.jpg);
+    background-repeat: repeat;
+    background-size: 40%;
+}
+
+h1 {
+    font-family: 'Bebas Neue';
+    font-weight: bold;
+    font-size: 60px;
+    color: indianred;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+h2 {
+    font-family: Bebas Neue;
+    font-weight: bold;
+    font-size: 50px;
+    color: indianred;
+    margin-left: 30px;
+    ;
+}
+
+h3 {
+    font-family: Bebas Neue;
+    font-weight: bold;
+    font-size: 40px;
+    color: indianred;
+    margin-left: 30px;
+    ;
+}
+
+p {
+    font-family: Verdana, sans-serif;
+    color: black;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+
+
+
+/* HOME */
+
+.img-fluid {
+    margin: auto;
+    margin-top: -20px;
+    width: 50%;
+    min-width: 320px;
+    height: auto;
+}
+
+
+.sinopsis_titulo {
+    background-color: rgb(97, 219, 221);
+    width: 230px;
+    height: 35px;
+    margin: -20px;
+    margin-top: -5px;
+    border-radius: 10px;
+    padding-left: 55px;
+}
+
+.sinopsis{
+    font-family: 'Bebas Neue';
+    font-weight: bold;
+    font-size: 30px;
+    color: indianred;
+    margin-left: 30px;
+}
+
+.sinopsis_contenido{
+    margin-top: 20px;
+    margin-left: 12px;
+}
+
+
+/* TRAMA */
+
+.trama {
+    margin-top: 50px;
+}
+
+.trama_titulo {
+    background-color: rgb(97, 219, 221);
+    width: 160px;
+    height: 55px;
+    margin: -20px;
+    border-radius: 10px;
+}
+
+.trama_texto {
+    margin-top: 40px;
+    margin-left: 15px;
+}
+
+.video_trailer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.carousel {
+    width: 1000px;
+    min-width: 300px;
+    margin: auto;
+}
+
+.autora_titulo {
+    margin-top: 50px;
+    margin-left: -20px;
+    margin-bottom: 30px;
+    background-color: rgb(97, 219, 221);
+    width: 360px;
+    height: 45px;
+    border-radius: 10px;
+}
+
+.autora_imagen {
+    width: 300px;
+    max-width: 250px;
+    margin-left: -10px;
+}
+
+.autora_texto {
+    margin-left: 15px;
+}
+
+
+
+
+
+/* TEMPORADAS */
+
+
+.temporada_titulo {
+
+    margin-top: 50px;
+    margin-left: -20px;
+    margin-bottom: 30px;
+    background-color: rgb(97, 219, 221);
+    width: 280px;
+    height: 55px;
+    border-radius: 10px;
+
+}
+
+
+.sinopsis_temporada {
+    margin-top: 20px;
+}
+
+.resumen_temporada {
+    margin-left: 15px;
+}
+
+.btn-info {
+    margin-top: 20px;
+    margin-left: 15px;
+    background-color: rgb(145, 233, 235);
+    border-color: rgb(145, 233, 235);
+    color: indianred;
+    font-weight: bold;
+    font-family: 'Bebas Neue';
+    font-size: 30px;
+}
+
+.card {
+    background-color: whitesmoke;
+    opacity: 70%;
+    margin-left: 15px;
+}
+
+.titulo_soundtrack {
+    margin-left: 20px;
+    font-family: 'Bebas Neue';
+    font-weight: bold;
+    font-size: 40px;
+    color: indianred;
+
+}
+
+
+
+
+
+/* PERSONAJES */
+
+
+.ficha {
+    background-color: rgb(97, 219, 221);
+    margin-bottom: -20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.nombre {
+    font-weight: bold;
+    font-family: 'Bebas Neue';
+    font-size: 30px;
+    color: indianred;
+    text-align: center;
+}
+
+.quote {
+    background-color: whitesmoke;
+    opacity: 70%;
+
+}
+
+
+
+/* FICHAS DE PERSONAJES */
+
+
+.volver {
+    width: 1px;
+}
+
+.nombre_otis {
+    margin: auto;
+}
+
+.ficha_otis {
+    margin-top: 50px;
+}
+
+.personaje_imagen {
+    width: auto;
+    max-width: 200px;
+    margin-left: 30px;
+
+}
+
+
+
+
+/* GALERIA */
+
+.imagen_galeria {
+    background-color: burlywood;
+    height: 50%;
+    width: auto;
+}
+
+.galeria_titulo {
+    background-color: cadetblue;
+}
+
+.imagen_videos {
+    height: 50%;
+    height: auto;
+}
+
+.imagen_freebies {
+    height: 50%;
+    height: auto;
+}

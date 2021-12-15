@@ -7,23 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/trama.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
-</script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
-</script>
-    
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="assets/css/estilos.css">
     <title>Trama</title>
 </head>
 
-<body>
+<body class="fondo_trama">
 
     <nav class="navbar navbar-light bg-light fixed-top">
         <div class="container-fluid">
@@ -41,34 +38,28 @@
                 <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="temporadas.html">Temporadas</a>
+                            <a class="nav-link active" aria-current="page" href="trama.html">Trama</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="temporadas.html">Temporadas</a>
                         </li>
                         <li>
                             <a class="nav-link" href="personajes.html">Personajes</a>
                         </li>
-                        <li>
-                            <a class="nav-link" href="trama.html">Trama</a>
-                        </li>
-                        <!-- <li>
-                            <a class="nav-link" href="galleria.html">Galeria</a>
-                        </li>
-                        <li>
-                            <a class="nav-link" href="sex_clinic.html">Sex Clinic</a>
-                        </li> -->
-                    </ul> 
+                    </ul>
                 </div>
             </div>
-            <a class="navbar-brand" href="index.html">Sex Education <br> Trama</a>
+            <a class="navbar-brand" href="index.html">Sex Education</a>
         </div>
     </nav>
 
-    <div class="container mt-5">
+    <div class="container-fluid mt-5">
         <div class="row">
-            <div class="col-12 col-md-5 mt-5">
-                <div class="col-12 trama_titulo p-2 p-md-3">
-                    <h3>Trama</h3>
+            <div class="col-12 col-md-5 trama">
+                <div class="col-12 trama_titulo ">
+                    <h2>Trama</h2>
                 </div>
-                <div class="col-12 trama_texto p-2">
+                <div class="col-11 col-md-10 trama_texto ">
                     <p> Otis es un tímido adolescente que vive con su madre Jean, una terapeauta sexual que se
                         asegura de que su hijo tenga conocimientos sobre el sexo. Sin embargo, la personalidad de
                         Otis hace que aún sea virgen y por tanto, no tiene experiencia en relaciones a pesar de
@@ -78,7 +69,7 @@
                         experiencia sexuales, todo mientras Otis intenta dejar de ser virgen.</p>
                 </div>
             </div>
-            <div class="col-12 col-md-7 video_trailer p-2 p-md-3 mt-5">
+            <div class="col-12 col-md-7 video_trailer">
                 <div class="ratio ratio-21x9">
                     <iframe src="https://www.youtube.com/embed/Hd2ldTR-WpI" title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
@@ -86,27 +77,56 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <img src="assets/img/Galeria general/slider_trama.jpg" class="slider_trama" alt="Mave Otis y Erik sentados frete a lockers">
-        </div>
 
         <div class="row">
-            <div class="col-12 col-md-4 autora_imagen p-2 p-md-4">
-                <img src="assets/img/laurie_nunn.jpg" class="img-fluid" alt="Laurie Nunn posando">
-            </div>
-            <div class="col-12 col-md-6 p-2 pt-md-5">
-                <div class="col-12 col-md-6 autora_titulo">
-                    <h3>Laurie Nunn: La autora</h3>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/img/galeria_general/trama_s1.jpg" class="d-block w-100"
+                            alt="Mave, Otis y Adam en los baños abandonados de la escuela">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/galeria_general/trama_s2.jpg" class="d-block w-100"
+                            alt="Otis y maves sentadps juntos">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/galeria_general/trama_s3.jpg" class="d-block w-100"
+                            alt="Todas las chicas sentadas en el bus">
+                    </div>
                 </div>
-                <div class="col-12 autora_texto col-md-8">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-12 autora_titulo">
+                <h3>Laurie Nunn: La autora</h3>
+            </div>
+
+            <div class="col-12 ">
+                <div class="col-11 col-md-8 autora_texto ">
                     <p>
                         Laurie Nunn es una joven guionista, diseñadora y productora de cine, televisión y teatro
                         australiana; escritora de la comedia dramática para adolescentes “Sex Education”.
                         Esta comedia con tintes dramáticos es su primer proyecto televisivo en el formato de serie.
-
                     </p>
                 </div>
+                <div class="col-12 col-md-4">
+                    <img src="assets/img/galeria_general/laurie_nunn.png" class="autora_imagen"
+                        alt="Laurie Nunn posando">
+                </div>
             </div>
+
         </div>
     </div>
 </body>
